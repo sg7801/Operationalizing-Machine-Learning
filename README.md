@@ -35,7 +35,7 @@ The last and the most vital step is to make the model publically available. This
 ## Future Improvements
 * We can try to implement various new algorithms along with running the AutoML Experiment for a longer time for longer time period. 
 * We can try new values for number of nodes, concurrency etc. 
-* We can use GPU's instead of CPU's to imporve the performance.
+* We can use GPU's instead of CPU's to improve the performance.
 * There was some imbalance detected in the Bank Marketing Dataset. We can eliminate it to get better accuracy and results.
 
 # Demonstration of Key Steps :
