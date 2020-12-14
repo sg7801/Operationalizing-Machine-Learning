@@ -18,7 +18,7 @@ It is the vital step to ensure secure and authentic access. Authentication is re
 We create the new Automated ML Run Experiment and then upload the Bank Marketing dataset. We run the experiment configuring a new compute cluster, using Classification and ensure that the best model explaination is enabled.
 
 ## Deploy the Best Model
-After the completion of the AutoML Run, we will get our best model. We will then deploy that model using the Azure Container Instance(ACI) and enable **Authentication** to prevent unauthorized access.
+After the completion of the AutoML Run, we will get our best model. We will then deploy that model using the **Azure Container Instance(ACI)** and enable **Authentication** to prevent unauthorized access.
 
 ## Enable Logging
 After the deployment, we will enable the Application Insights from the deployed model. This will help us produce logging output with the python sdk. It plays a vital role to debug problems in production environments.
