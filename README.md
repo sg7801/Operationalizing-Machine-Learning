@@ -9,6 +9,8 @@ In this project we will use the Microsoft Azure to configure cloud-based machine
 * Consume model endpoints
 * Create and publish a pipeline
 
+![Architectural Diagram of the Project](https://user-images.githubusercontent.com/61888364/102027946-7d9d8f80-3dcd-11eb-9907-f68c64b5899a.png)
+
 ## Automated ML Experiment
 We create the new Automated ML Run Experiment and then upload the Bank Marketing dataset. We run the experiment using Classification and ensure that the best model explaintaion is enabled. 
 
