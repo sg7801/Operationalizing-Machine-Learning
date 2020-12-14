@@ -37,6 +37,7 @@ The last and the most vital step is to make the model publically available. This
 * We can try new values for number of nodes, concurrency etc. 
 * We can use GPU's instead of CPU's to improve the performance. Since CPU's might reduce the costs but in terms of performance and accuracy GPU's outperform CPU's.
 * There was some imbalance detected in the Bank Marketing Dataset. We can eliminate it to get better accuracy and results by resampling the training dataset etc.
+* We can enable Deep Learning as well in the Auto ML Experiment for better results as it will consider different patterns and algorithms. Hence, improving the accuracy.
 
 # Demonstration of Key Steps :
 ## Automated ML Experiment
