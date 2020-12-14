@@ -33,10 +33,10 @@ We must consume the deployed service to retrieve the data using **HTTP request**
 The last and the most vital step is to make the model publically available. This is done by creating a pipeline and then publishing it. It is synonymous to Automation as the pipeline create ways for other services to interact with it using HTTP endpoint.
 
 ## Future Improvements
-* We can try to implement various new algorithms along with running the AutoML Experiment for a longer time for longer time period. 
+* We can try to implement various new algorithms along with running the AutoML Experiment for a longer time period. 
 * We can try new values for number of nodes, concurrency etc. 
-* We can use GPU's instead of CPU's to improve the performance.
-* There was some imbalance detected in the Bank Marketing Dataset. We can eliminate it to get better accuracy and results.
+* We can use GPU's instead of CPU's to improve the performance. Since CPU's might reduce the costs but in terms of performance and accuracy GPU's outperform CPU's.
+* There was some imbalance detected in the Bank Marketing Dataset. We can eliminate it to get better accuracy and results by resampling the training dataset etc.
 
 # Demonstration of Key Steps :
 ## Automated ML Experiment
