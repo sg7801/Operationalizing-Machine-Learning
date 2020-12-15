@@ -107,3 +107,6 @@ The last and the most vital step is to make the model publically available. This
 
 ![22](https://user-images.githubusercontent.com/61888364/102207354-fac32480-3ef3-11eb-8c49-4520f8d16fb0.png)
 ![23](https://user-images.githubusercontent.com/61888364/102207358-fc8ce800-3ef3-11eb-8e1a-118c08947766.png)
+
+### Link of the screencast
+https://drive.google.com/file/d/1bAJCczbbPfupSpIbDdxU0ITXGegeqa7M/view?usp=sharing
