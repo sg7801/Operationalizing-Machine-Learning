@@ -42,9 +42,66 @@ The last and the most vital step is to make the model publically available. This
 # Demonstration of Key Steps :
 ## Automated ML Experiment
 
-#### Below is the screenshot of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
+#### Firstly, we upload the dataset. Below is image of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
+
+![2](https://user-images.githubusercontent.com/61888364/102204326-bd5c9800-3eef-11eb-847d-afc541507e8c.png)
+#### Then, we perform the AutoML Run (using Classification) and get the Voting Ensemble as the best model of accuracy 0.91988 with Explaination Enabled 
+
+![1](https://user-images.githubusercontent.com/61888364/102203716-ef212f00-3eee-11eb-96ba-d102441f6437.png)
+
+![3](https://user-images.githubusercontent.com/61888364/102204429-dfeeb100-3eef-11eb-8dc0-7b0baee1ec56.png)
+
+![8](https://user-images.githubusercontent.com/61888364/102205498-46280380-3ef1-11eb-8e93-a6d0e75f4402.png)
+
+![9](https://user-images.githubusercontent.com/61888364/102205527-4fb16b80-3ef1-11eb-81da-9041fde4e72a.png)
+
+#### Now, we will deploy the best performing model. We use Azure Cluster Instance and Authentication for the same. 
+
+![4](https://user-images.githubusercontent.com/61888364/102205121-bd10cc80-3ef0-11eb-8590-cdf41b9f1442.png)
+ 
+ #### To enable Application Insights, we run the logs.py file.
+ 
+![5](https://user-images.githubusercontent.com/61888364/102205274-fcd7b400-3ef0-11eb-863b-bb56bd50a966.png)
+![6](https://user-images.githubusercontent.com/61888364/102205312-08c37600-3ef1-11eb-96c3-70dafc98559d.png)
+
+#### Now Application Insights are enabled.
+
+![7](https://user-images.githubusercontent.com/61888364/102205414-2b558f00-3ef1-11eb-9c8a-d04a601b1286.png)
+
+#### Now we run swagger.sh after downloading the swagger.json file in same folder. Then we will run the serve.py file.
+
+![10](https://user-images.githubusercontent.com/61888364/102205643-7a032900-3ef1-11eb-994d-9f500b947700.png)
+
+#### As a result we get swagger runs on localhost showing HTTP API methods and responses for the model.
+
+![11](https://user-images.githubusercontent.com/61888364/102206395-889e1000-3ef2-11eb-9182-2d886acfcf59.png)
+
+![12](https://user-images.githubusercontent.com/61888364/102206405-8b006a00-3ef2-11eb-9a58-503ea9f0ef6e.png)
+
+#### Now we consume the Model Endpoints. We run the endpoint.py script with the scoring_uri and the key for our service. After that we get data.json file.
+
+![13](https://user-images.githubusercontent.com/61888364/102206502-bf742600-3ef2-11eb-94b8-1b205bb9ff58.png)
+
+![14](https://user-images.githubusercontent.com/61888364/102206663-fd714a00-3ef2-11eb-87f1-d401e5f487db.png)
+
+#### Now, we create, publish and consume pipeline
 
 
+![15](https://user-images.githubusercontent.com/61888364/102207309-ea12ae80-3ef3-11eb-9730-ffd1a9639970.png)
+![16](https://user-images.githubusercontent.com/61888364/102207313-ec750880-3ef3-11eb-80e4-9bf853678c42.png)
 
+#### The run was completed with no error.
 
+![17](https://user-images.githubusercontent.com/61888364/102207317-ee3ecc00-3ef3-11eb-9f9d-29422dd43344.png)
 
+#### Now we publish and run for REST endpoint
+
+![18](https://user-images.githubusercontent.com/61888364/102207326-f139bc80-3ef3-11eb-95b4-8a391429cd75.png)
+![19](https://user-images.githubusercontent.com/61888364/102207327-f1d25300-3ef3-11eb-8a03-360a674cad02.png)
+![20](https://user-images.githubusercontent.com/61888364/102207343-f72f9d80-3ef3-11eb-81e2-ebc15bc6205a.png)
+![21](https://user-images.githubusercontent.com/61888364/102207350-f8f96100-3ef3-11eb-8b41-9a2f680b213e.png)
+
+#### The run was successful with no errors.
+
+![22](https://user-images.githubusercontent.com/61888364/102207354-fac32480-3ef3-11eb-8c49-4520f8d16fb0.png)
+![23](https://user-images.githubusercontent.com/61888364/102207358-fc8ce800-3ef3-11eb-8e1a-118c08947766.png)
