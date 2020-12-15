@@ -86,7 +86,6 @@ The last and the most vital step is to make the model publically available. This
 
 #### Now, we create, publish and consume pipeline
 
-
 ![15](https://user-images.githubusercontent.com/61888364/102207309-ea12ae80-3ef3-11eb-9730-ffd1a9639970.png)
 ![16](https://user-images.githubusercontent.com/61888364/102207313-ec750880-3ef3-11eb-80e4-9bf853678c42.png)
 
@@ -98,6 +97,9 @@ The last and the most vital step is to make the model publically available. This
 
 ![18](https://user-images.githubusercontent.com/61888364/102207326-f139bc80-3ef3-11eb-95b4-8a391429cd75.png)
 ![19](https://user-images.githubusercontent.com/61888364/102207327-f1d25300-3ef3-11eb-8a03-360a674cad02.png)
+
+#### Here the AutoML is being performed on the Bank Marketing Dataset
+
 ![20](https://user-images.githubusercontent.com/61888364/102207343-f72f9d80-3ef3-11eb-81e2-ebc15bc6205a.png)
 ![21](https://user-images.githubusercontent.com/61888364/102207350-f8f96100-3ef3-11eb-8b41-9a2f680b213e.png)
 
