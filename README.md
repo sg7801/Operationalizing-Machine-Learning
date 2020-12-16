@@ -40,6 +40,9 @@ The last and the most vital step is to make the model publically available. This
 * We can enable Deep Learning as well in the Auto ML Experiment for better results as it will consider different patterns and algorithms. Hence, improving the accuracy.
 
 # Demonstration of Key Steps :
+## Step 1: Authentication
+If we are using our personal account then we need to install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio. Its a part of the az command. Then we will have to create a Service Principal Account and associate it with specific workspace.
+
 ## Automated ML Experiment
 
 #### Firstly, we upload the dataset. Below is image of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
