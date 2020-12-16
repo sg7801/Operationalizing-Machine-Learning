@@ -103,6 +103,9 @@ Once the model is deployed, use the endpoint.py script provided to interact with
 
 ![14](https://user-images.githubusercontent.com/61888364/102206663-fd714a00-3ef2-11eb-87f1-d401e5f487db.png)
 
+## Step 7: Create, Publish and Consume a Pipeline
+The config.json must be downloaded in current working directory.
+
 #### Now, we create, publish and consume pipeline
 
 ![15](https://user-images.githubusercontent.com/61888364/102207309-ea12ae80-3ef3-11eb-9730-ffd1a9639970.png)
