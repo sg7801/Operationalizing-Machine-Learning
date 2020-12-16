@@ -80,7 +80,10 @@ Now that the Best Model is deployed, enable Application Insights and retrieve lo
 
 ![7](https://user-images.githubusercontent.com/61888364/102205414-2b558f00-3ef1-11eb-9c8a-d04a601b1286.png)
 
-#### Now we run swagger.sh after downloading the swagger.json file in same folder. Then we will run the serve.py file.
+## Step 5: Swagger Documentation
+In this step, you will consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
+
+#### Now we run swagger.sh after downloading the swagger.json file in same folder. Then we will run the serve.py file. swagger.sh will download the latest Swagger container, and it will run it on port 9000. serve.py will start a Python server on port 8000.
 
 ![10](https://user-images.githubusercontent.com/61888364/102205643-7a032900-3ef1-11eb-994d-9f500b947700.png)
 
