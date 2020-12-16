@@ -68,7 +68,10 @@ Deploying the Best Model will allow to interact with the HTTP API service and in
 
 ![4](https://user-images.githubusercontent.com/61888364/102205121-bd10cc80-3ef0-11eb-8590-cdf41b9f1442.png)
  
- #### To enable Application Insights, we run the logs.py file.
+## Step 4: Enable Application Insights
+Now that the Best Model is deployed, enable Application Insights and retrieve logs using Azure Python SDK.
+
+#### To enable Application Insights, we run the logs.py file.
  
 ![5](https://user-images.githubusercontent.com/61888364/102205274-fcd7b400-3ef0-11eb-863b-bb56bd50a966.png)
 ![6](https://user-images.githubusercontent.com/61888364/102205312-08c37600-3ef1-11eb-96c3-70dafc98559d.png)
