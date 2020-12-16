@@ -120,12 +120,13 @@ The config.json must be downloaded in current working directory.
 ![18](https://user-images.githubusercontent.com/61888364/102207326-f139bc80-3ef3-11eb-95b4-8a391429cd75.png)
 ![19](https://user-images.githubusercontent.com/61888364/102207327-f1d25300-3ef3-11eb-8a03-360a674cad02.png)
 
-#### Here the AutoML is being performed on the Bank Marketing Dataset
+#### Here the AutoML is being performed on the Bank Marketing Dataset. Below image shows “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE.
 
 ![20](https://user-images.githubusercontent.com/61888364/102207343-f72f9d80-3ef3-11eb-81e2-ebc15bc6205a.png)
+
 ![21](https://user-images.githubusercontent.com/61888364/102207350-f8f96100-3ef3-11eb-8b41-9a2f680b213e.png)
 
-#### The run was successful with no errors.
+#### The run was successful with no errors. Below is the screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs.
 
 ![22](https://user-images.githubusercontent.com/61888364/102207354-fac32480-3ef3-11eb-8c49-4520f8d16fb0.png)
 
