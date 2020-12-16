@@ -55,13 +55,13 @@ In this step, you will create an experiment using Automated ML, configure a comp
 #### The run has completed and we get Voting Ensemble as the best performing model of accuracy 0.91988 
 
 ![3](https://user-images.githubusercontent.com/61888364/102204429-dfeeb100-3eef-11eb-8dc0-7b0baee1ec56.png)
-
+#### After the experiment run completes, a summary of all the models and their metrics are shown, including explanations. Below images show the explaination of the best performing model.
 
 ![8](https://user-images.githubusercontent.com/61888364/102205498-46280380-3ef1-11eb-8e93-a6d0e75f4402.png)
 
 ![9](https://user-images.githubusercontent.com/61888364/102205527-4fb16b80-3ef1-11eb-81da-9041fde4e72a.png)
 
-### Step 3: Deploy the Best Model
+## Step 3: Deploy the Best Model
 Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
 
 #### Now, we will deploy the best performing model. We use Azure Cluster Instance and Authentication for the same. 
