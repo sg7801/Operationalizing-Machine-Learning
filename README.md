@@ -44,6 +44,7 @@ The last and the most vital step is to make the model publically available. This
 If we are using our personal account then we need to install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio. Its a part of the az command. Then we will have to create a Service Principal Account and associate it with specific workspace.
 
 ## Step 2: Automated ML Experiment
+In this step, you will create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 
 #### Firstly, we upload the dataset. Below is image of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
 
@@ -55,9 +56,13 @@ If we are using our personal account then we need to install the Azure Machine L
 
 ![3](https://user-images.githubusercontent.com/61888364/102204429-dfeeb100-3eef-11eb-8dc0-7b0baee1ec56.png)
 
+
 ![8](https://user-images.githubusercontent.com/61888364/102205498-46280380-3ef1-11eb-8e93-a6d0e75f4402.png)
 
 ![9](https://user-images.githubusercontent.com/61888364/102205527-4fb16b80-3ef1-11eb-81da-9041fde4e72a.png)
+
+### Step 3: Deploy the Best Model
+Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
 
 #### Now, we will deploy the best performing model. We use Azure Cluster Instance and Authentication for the same. 
 
