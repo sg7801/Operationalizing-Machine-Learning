@@ -107,6 +107,10 @@ The last and the most vital step is to make the model publically available. This
 
 ![22](https://user-images.githubusercontent.com/61888364/102207354-fac32480-3ef3-11eb-8c49-4520f8d16fb0.png)
 
+#### ML studio showing the pipeline endpoint as Active
+
+![Endpoints - Pipeline-Acitve](https://user-images.githubusercontent.com/61888364/102290587-57abf280-3f67-11eb-9f91-feadd4b9f763.png)
+
 ## Link of the screencast:
 
 https://drive.google.com/file/d/1bAJCczbbPfupSpIbDdxU0ITXGegeqa7M/view?usp=sharing 
