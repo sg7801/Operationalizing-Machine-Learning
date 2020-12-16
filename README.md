@@ -43,7 +43,7 @@ The last and the most vital step is to make the model publically available. This
 ## Step 1: Authentication
 If we are using our personal account then we need to install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio. Its a part of the az command. Then we will have to create a Service Principal Account and associate it with specific workspace.
 
-## Automated ML Experiment
+## Step 2: Automated ML Experiment
 
 #### Firstly, we upload the dataset. Below is image of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
 
