@@ -93,6 +93,9 @@ In this step, you will consume the deployed model using Swagger. Azure provides 
 
 ![12](https://user-images.githubusercontent.com/61888364/102206405-8b006a00-3ef2-11eb-9a58-503ea9f0ef6e.png)
 
+## Step 6: Consume Model Endpoints
+Once the model is deployed, use the endpoint.py script provided to interact with the trained model. We need to run the script after modifying both the scoring_uri and the key to match the key for the service and the URI that was generated after deployment.
+
 #### Now we consume the Model Endpoints. We run the endpoint.py script with the scoring_uri and the key for our service. After that we get data.json file.
 
 ![13](https://user-images.githubusercontent.com/61888364/102206502-bf742600-3ef2-11eb-94b8-1b205bb9ff58.png)
