@@ -1,6 +1,6 @@
 # Operationalizing Machine Learning
 
-In this project we will use the Microsoft Azure to configure cloud-based machine learning production model. We will use the Bank Marketing Dataset, then we will deploy it and consume it. Also, we will create, publish and consume the pipeline. This revolves around the best use of cloud based resources. We will perform the following steps after entering the workspace:
+In this project we will use the Microsoft Azure to configure cloud-based machine learning production model. We will use the Bank Marketing Dataset, that has information about the marketing campaigns of a Portugese Institution. The aim is to predict if the person will take its services or not. The answer will be binary. We will deploy it and consume it. Also, we will create, publish and consume the pipeline. This revolves around the best use of cloud based resources. We will perform the following steps after entering the workspace:
 * Authentication
 * Automated ML Experiment
 * Deploy the best model
