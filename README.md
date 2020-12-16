@@ -99,6 +99,7 @@ Once the model is deployed, use the endpoint.py script provided to interact with
 #### Now we consume the Model Endpoints. We run the endpoint.py script with the scoring_uri and the key for our service. After that we get data.json file.
 
 ![13](https://user-images.githubusercontent.com/61888364/102206502-bf742600-3ef2-11eb-94b8-1b205bb9ff58.png)
+#### On running endpoint.py in the terminal we got the output as below. 
 
 ![14](https://user-images.githubusercontent.com/61888364/102206663-fd714a00-3ef2-11eb-87f1-d401e5f487db.png)
 
