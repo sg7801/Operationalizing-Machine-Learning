@@ -126,7 +126,7 @@ The config.json must be downloaded in current working directory.
 
 ![21](https://user-images.githubusercontent.com/61888364/102207350-f8f96100-3ef3-11eb-8b41-9a2f680b213e.png)
 
-#### The run was successful with no errors. Below is the screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs.
+#### The run was successful with no errors. Below is the screenshot of the Jupyter Notebook showing the “Use RunDetails Widget” with the step runs.
 
 ![22](https://user-images.githubusercontent.com/61888364/102207354-fac32480-3ef3-11eb-8c49-4520f8d16fb0.png)
 
