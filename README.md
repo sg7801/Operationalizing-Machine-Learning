@@ -48,9 +48,10 @@ If we are using our personal account then we need to install the Azure Machine L
 #### Firstly, we upload the dataset. Below is image of the "Registered Datasets" in the ML Studio showing Bank Marketing Dataset available.
 
 ![2](https://user-images.githubusercontent.com/61888364/102204326-bd5c9800-3eef-11eb-847d-afc541507e8c.png)
-#### Then, we perform the AutoML Run (using Classification) and get the Voting Ensemble as the best model of accuracy 0.91988 with Explaination Enabled 
+#### Then, we perform the AutoML Run (using Classification) with Explaination Enabled.
 
 ![1](https://user-images.githubusercontent.com/61888364/102203716-ef212f00-3eee-11eb-96ba-d102441f6437.png)
+#### The run has completed and we get Voting Ensemble as the best performing model of accuracy 0.91988 
 
 ![3](https://user-images.githubusercontent.com/61888364/102204429-dfeeb100-3eef-11eb-8dc0-7b0baee1ec56.png)
 
